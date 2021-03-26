@@ -1,3 +1,5 @@
+set -e
+
 NEW_URL="https://single-spa-react-demo.s3.amazonaws.com/${PROJECT}/${GITHUB_SHA}/cd-${PROJECT}.js"
 
 echo "Downloading import map from S3"
